@@ -7,7 +7,7 @@ export const HeroImg = () => {
 
     return (
         <>
-            <Image alt='hero image one' src={HeroImgOne} loading='eager' priority className={styles.hero_img} width={5472} height={3648} />
+            <Image alt='hero image one' src={HeroImgOne} loading='eager' priority className={styles.hero_img} width={1060} height={749} />
         </>
     )
 }
