@@ -11,12 +11,13 @@
     .footer_content {
         margin: 0px auto;
         color: var(--clr-salt);
+        padding: 0px 20px;
 
         .footer_separation {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            column-gap: 20px;
+            column-gap: 5px;
 
             .footer_section {
                 display: flex;
@@ -25,8 +26,8 @@
                 margin-bottom: 1rem;
 
                 img {
-                    width: 80%;
-                    height: auto;
+                    width: auto;
+                    height: 60px;
                 }
 
                 .footer_headers {
@@ -115,6 +116,6 @@
 
 @media (max-width: 768px) {
     .footer_container {
-        padding: 60px;
+        padding: 60px 40px;
     }
 }
