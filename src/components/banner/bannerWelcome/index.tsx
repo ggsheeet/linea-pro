@@ -31,7 +31,7 @@ export const BannerWelcome = () => {
                         <ul key={index} className={styles.carousel_items}>
                             {bags.map((bag, index) => (
                                 <li key={index}>
-                                    <Image key={index} src={bag.src} alt={bag.alt} width={433} height={577} />
+                                    <Image key={index} src={bag.src} alt={bag.alt} loading='eager' priority width={433} height={577} />
                                 </li>
                             ))}
                         </ul>
