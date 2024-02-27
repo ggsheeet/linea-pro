@@ -1,156 +1,156 @@
 .banner_text {
-    width: 40%;
-    padding-left: 40px;
+	width: 40%;
+	padding-left: 40px;
 
-    h3 {
-        font-family: var(--font-prata);
-        font-size: 24px;
-        text-align: flex-start;
-        padding-top: 1vh;
-    }
+	h3 {
+		font-family: var(--font-prata);
+		font-size: 24px;
+		text-align: flex-start;
+		padding-top: 1vh;
+	}
 
-    h4 {
-        font-family: var(--font-raleway);
-        font-size: 20px;
-        text-align: flex-start;
-        color: #909090;
-    }
+	h4 {
+		font-family: var(--font-raleway);
+		font-size: 20px;
+		text-align: flex-start;
+		color: #909090;
+	}
 
-    p {
-        font-size: 18px;
-        text-align: flex-start;
-        padding-top: 2vh;
-        text-align: justify;
-    }
+	p {
+		font-size: 18px;
+		text-align: flex-start;
+		padding-top: 2vh;
+		text-align: justify;
+	}
 
-    button {
-        display: inline-block;
-        margin-top: 2vh; 
-        padding: 12px 21px;
-        border: 3px solid var(--clr-pepper);
-        background-color: var(--clr-salt);
-        color: var(--clr-pepper);
-        border-radius: 8px;
-        transition: background-color 0.3s, color 0.2s;
-        font-family: var(--font-raleway);
-        font-weight: 500;
-        font-size: 20px;
+	button {
+		display: inline-block;
+		margin-top: 2vh;
+		padding: 12px 21px;
+		border: 3px solid var(--clr-pepper);
+		background-color: var(--clr-salt);
+		color: var(--clr-pepper);
+		border-radius: 8px;
+		transition: background-color 0.3s, color 0.2s;
+		font-family: var(--font-raleway);
+		font-weight: 500;
+		font-size: 20px;
 
-        &:hover {
-            background-color: var(--clr-pepper);
-            color: var(--clr-salt);
-        }
-    }
+		&:hover {
+			background-color: var(--clr-pepper);
+			color: var(--clr-salt);
+		}
+	}
 
-    @media (max-width: 1280px) {
-        h3 {
-            font-size: 20px;
-        }
+	@media (max-width: 1280px) {
+		h3 {
+			font-size: 20px;
+		}
 
-        h4 {
-            font-size: 17px;
-        }
+		h4 {
+			font-size: 17px;
+		}
 
-        p {
-            font-size: 17px;
-            text-align: flex-start;
-        }
+		p {
+			font-size: 17px;
+			text-align: flex-start;
+		}
 
-        button {
-            font-size: 17px;
-            padding: 10px 14px;
-        }
-    }
+		button {
+			font-size: 17px;
+			padding: 10px 14px;
+		}
+	}
 
-    @media (max-width: 1024px) {
-        h3 {
-            font-size: 16px;
-        }
+	@media (max-width: 1024px) {
+		h3 {
+			font-size: 16px;
+		}
 
-        h4 {
-            font-size: 14px;
-        }
+		h4 {
+			font-size: 14px;
+		}
 
-        p {
-            font-size: 16px;
-            text-align: flex-start;
-        }
+		p {
+			font-size: 16px;
+			text-align: flex-start;
+		}
 
-        button {
-            font-size: 16px;
-            padding: 9px 12px;
-        }
-    }
+		button {
+			font-size: 16px;
+			padding: 9px 12px;
+		}
+	}
 
-    @media (max-width: 768px) {
-        h4 {
-            padding-top: 2vh;
-        }
+	@media (max-width: 768px) {
+		h4 {
+			padding-top: 2vh;
+		}
 
-        button {
-            font-size: 16px;
-            font-weight: 500;
-            border-radius: 4px;
-                background-color: var(--clr-pepper);
-                color: var(--clr-salt);
-        }
-    }
+		button {
+			font-size: 16px;
+			font-weight: 500;
+			border-radius: 4px;
+			background-color: var(--clr-pepper);
+			color: var(--clr-salt);
+		}
+	}
 }
 
 .banner_img {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: auto;
-    object-fit: cover;
-    padding-right: 40px;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	height: auto;
+	object-fit: cover;
+	padding-right: 40px;
 
-    img {
-        border-radius: 8px;
-        width: 100%;
-        height: 400px;
-        object-fit: cover;
-        object-position: 50% 30%;
-    }
+	img {
+		border-radius: 8px;
+		width: 100%;
+		height: 400px;
+		object-fit: cover;
+		object-position: 50% 30%;
+	}
 }
 
 @media (max-width: 1280px) {
-    .banner_text {
-        width: 37%;
-        padding-left: 30px;
-    }
+	.banner_text {
+		width: 37%;
+		padding-left: 30px;
+	}
 
-    .banner_img {
-        padding-left: 30px;
-        width: 43%;
-    }
+	.banner_img {
+		padding-left: 30px;
+		width: 43%;
+	}
 }
 
 @media (max-width: 1024px) {
-    .banner_text {
-        width: 40%;
-    }
+	.banner_text {
+		width: 40%;
+	}
 
-    .banner_img {
-        width: 43%;
-    }
+	.banner_img {
+		width: 43%;
+	}
 }
 
 @media (max-width: 768px) {
-    .banner_text {
-        width: 77%;
-        padding: 0px;
-    }
+	.banner_text {
+		width: 77%;
+		padding: 0px;
+	}
 
-    .banner_img {
-        width: 77%;
-        height: 300px;
-        padding: 0px;
+	.banner_img {
+		width: 77%;
+		height: 300px;
+		padding: 0px;
 
-        img {
-            border-radius: 8px;
-            width: 100%;
-            height: 100%;
-        }
-    }
+		img {
+			border-radius: 8px;
+			width: 100%;
+			height: 100%;
+		}
+	}
 }

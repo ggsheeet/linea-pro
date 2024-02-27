@@ -1,9 +1,12 @@
 import React from 'react'
+import { HeroOther } from '@/components/hero/heroOther'
 
 const Blog = () => {
-  return (
-    <div>Blog</div>
-  )
+	return (
+		<>
+			<HeroOther />
+		</>
+	)
 }
 
 export default Blog

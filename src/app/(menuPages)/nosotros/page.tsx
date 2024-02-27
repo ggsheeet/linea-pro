@@ -1,9 +1,12 @@
 import React from 'react'
+import { HeroOther } from '@/components/hero/heroOther'
 
 const AboutUs = () => {
-  return (
-    <div>Nosotros</div>
-  )
+	return (
+		<>
+			<HeroOther />
+		</>
+	)
 }
 
 export default AboutUs

@@ -3,41 +3,42 @@
 @tailwind utilities;
 
 :root {
-  --foreground-scheme: #111;
-  --background-scheme: #F0F0F0;
-  --clr-salt: #F0F0F0;
+	--foreground-scheme: #111;
+	--background-scheme: #f0f0f0;
+	--clr-salt: #f0f0f0;
+  --clr-offwhite: #d2d2d2;
   --clr-pepper: #111;
-  --clr-link: #598EFF;
-  --clr-choc: #715656;
+	--clr-link: #598eff;
+	--clr-choc: #715656;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-scheme: #F0F0F0;
-    --background-scheme: #111;
-  }
+	:root {
+		--foreground-scheme: #f0f0f0;
+		--background-scheme: #111;
+	}
 }
 
 body {
-  font-family: var(--font-raleway);
-  color: var(--foreground-scheme);
-  background: var(--background-scheme)
+	font-family: var(--font-raleway);
+	color: var(--foreground-scheme);
+	background: var(--background-scheme);
 }
 
 nav {
-  position: fixed;
-  width: 100%;
-  background-color: none;
-  z-index: 4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s ease;
+	position: fixed;
+	width: 100%;
+	background-color: none;
+	z-index: 4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.3s ease;
 }
 
 footer {
-  background-color: var(--clr-pepper);
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+	background-color: var(--clr-pepper);
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
 }

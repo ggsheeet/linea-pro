@@ -17,6 +17,7 @@ const config: Config = {
 				'brand-foreground': 'var(--foreground-scheme)',
         'brand-background': 'var(--background-scheme)',
         'brand-salt': 'var(--clr-salt)',
+        'brand-offwhite': 'var(--clr-offwhite)',
         'brand-pepper': 'var(--clr-pepper)',
         'brand-link': 'var(--clr-link)',
         'brand-choc': 'var(--clr-choc)'

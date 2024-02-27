@@ -1,9 +1,12 @@
 import React from 'react'
+import { HeroOther } from '@/components/hero/heroOther'
 
 const Contact = () => {
-  return (
-    <div>Contacto</div>
-  )
+	return (
+		<>
+			<HeroOther />
+		</>
+	)
 }
 
 export default Contact
