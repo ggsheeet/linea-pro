@@ -14,7 +14,6 @@ export const HeroVideo = () => {
 				playsInline
 				loop
 				poster={HeroPlaceholder}
-				className={styles.hero_img}
 			>
 				<source src={HeroVid} type="video/mp4" />
 			</video>
