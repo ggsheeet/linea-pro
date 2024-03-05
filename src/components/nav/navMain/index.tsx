@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { NavLink } from '../navLink'
 import { NavIcon } from '../navMobile/navIcon'
 import { NavMenu } from './navMenu'
-import { LogoMain } from '@/components/imgs'
+import { LogoMain } from '@/components/media'
 import styles from './NavMain.module.css'
 
 export const NavMain = () => {

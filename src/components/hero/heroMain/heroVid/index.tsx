@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroVid } from '@/components/imgs'
+import { HeroPlaceholder, HeroVid } from '@/components/media'
 import styles from './HeroVid.module.css'
 
 export const HeroVideo = () => {
@@ -13,6 +13,7 @@ export const HeroVideo = () => {
 				muted
 				playsInline
 				loop
+				poster={HeroPlaceholder}
 				className={styles.hero_img}
 			>
 				<source src={HeroVid} type="video/mp4" />
