@@ -1,11 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from './BannerIntro.module.css'
-import { BannerDark } from '../bannerContainer/bannerDark'
 import { BannerLight } from '../bannerContainer/bannerLight'
+import { BannerImg } from '@/components/imgs'
+import styles from './BannerIntro.module.css'
 
 export const BannerIntro = () => {
-	const BannerImg = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-fruit.webp`
 	return (
 		<BannerLight>
 			<div className={styles.banner_img}>

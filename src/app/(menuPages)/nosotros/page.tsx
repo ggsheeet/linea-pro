@@ -1,10 +1,10 @@
 import React from 'react'
-import { HeroOther } from '@/components/hero/heroOther'
+import { BannerMission } from '@/components/banner/bannerMission'
 
 const AboutUs = () => {
 	return (
 		<>
-			<HeroOther />
+		{/* <BannerMission /> */}
 		</>
 	)
 }

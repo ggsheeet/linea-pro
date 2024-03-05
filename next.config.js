@@ -4,6 +4,7 @@ const cspHeader = `
     script-src 'self' 'unsafe-eval' 'unsafe-inline';
     style-src 'self' 'unsafe-inline';
     img-src 'self' blob: data: ${process.env.NEXT_PUBLIC_S3_BUCKET_URL};
+	media-src ${process.env.NEXT_PUBLIC_S3_BUCKET_URL};
     font-src 'self';
     object-src 'none';
     base-uri 'self';

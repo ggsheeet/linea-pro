@@ -14,8 +14,6 @@ export const HeroCTA = () => {
 				return (
 					<h1
 						key={index}
-						data-aos='fade-up'
-						data-aos-offset='300'
 						className={isActive ? '' : 'hidden'}
 					>
 						{cta.name}

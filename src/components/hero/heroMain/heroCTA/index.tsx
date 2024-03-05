@@ -6,12 +6,9 @@ export const HeroCTA = () => {
 	return (
 		<div className={styles.hero_text}>
 			<h1 data-aos='fade-up' data-aos-offset='300'>
-				Un slogan o mensaje insiprador o así
+				"El cacao debe ser nuevamente el protagonista del chocolate, no el azúcar"
 			</h1>
-			{/* <div className={styles.button_group} data-aos="fade-up" data-aos-offset="200">
-                <FirstButton />
-                <SecondButton />
-            </div> */}
+			<span data-aos='fade-up' data-aos-offset='-100'>-Ana Parizot</span>
 		</div>
 	)
 }

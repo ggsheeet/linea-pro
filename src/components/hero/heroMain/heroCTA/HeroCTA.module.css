@@ -7,18 +7,24 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-90%, -50%);
+	transform: translate(-50%, -50%);
 	z-index: 3;
+	width: 80%;
+	max-width: 1280px;
 	color: var(--clr-salt);
+	font-family: var(--font-petit);
 
 	h1 {
 		font-family: var(--font-prata);
+		font-style: italic;
 		font-size: 39px;
 	}
 
 	span {
-		font-family: var(--font-petit);
-		font-size: 35px;
+		font-family: var(--font-prata);
+		font-size: 30px;
+		text-align: end;
+		padding-right: 5px;
 	}
 
 	@media (max-width: 1280px) {
@@ -27,17 +33,17 @@
 		}
 
 		span {
-			font-size: 33px;
+			font-size: 27px;
 		}
 	}
 
 	@media (max-width: 1024px) {
 		h1 {
-			font-size: 30px;
+			font-size: 31px;
 		}
 
 		span {
-			font-size: 27px;
+			font-size: 24px;
 		}
 	}
 
@@ -47,7 +53,7 @@
 		}
 
 		span {
-			font-size: 22px;
+			font-size: 16px;
 		}
 	}
 }
@@ -63,7 +69,6 @@
 
 @media (max-width: 1280px) {
 	.hero_text {
-		transform: translate(-50%, -50%);
 		width: 80%;
 		row-gap: 3vh;
 	}
@@ -75,8 +80,6 @@
 
 @media (max-width: 1024px) {
 	.hero_text {
-		transform: translate(-50%, -50%);
-		width: 80%;
 		row-gap: 3vh;
 	}
 
@@ -87,6 +90,7 @@
 
 @media (max-width: 768px) {
 	.hero_text {
-		transform: translate(-50%, -50%);
+		transform: translate(-50%, -40%);
+		width: 77%;
 	}
 }

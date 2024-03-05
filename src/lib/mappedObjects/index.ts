@@ -15,28 +15,28 @@ export const heroImgs = [
 		href: '/nosotros'
 	},
 	{
-		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-tree.webp`,
-		alt: 'lp-tronco',
-		width: 5472,
-		height: 3648,
+		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-sir.webp`,
+		alt: 'lp-señor',
+		width: 2645,
+		height: 1889,
 		href: '/trayectoria'
 	},
 	{
-		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-grain.webp`,
-		alt: 'lp-grano',
-		width: 5472,
-		height: 3648,
+		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-coins.webp`,
+		alt: 'lp-monedas',
+		width: 1060,
+		height: 749,
 		href: '/comprar'
 	},
 	{
-		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-grain.webp`,
-		alt: 'lp-tree',
-		width: 5472,
-		height: 3648,
+		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-net.webp`,
+		alt: 'lp-granos',
+		width: 2738,
+		height: 1825,
 		href: '/blog'
 	},
 	{
-		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-grain.webp`,
+		src: `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-imgs/choc-tree.webp`,
 		alt: 'lp-tree',
 		width: 5472,
 		height: 3648,
@@ -45,10 +45,10 @@ export const heroImgs = [
 ]
 
 export const heroCTAs = [
-	{ name: 'Acerca de Nosotros', href: '/nosotros' },
-	{ name: 'Nuestra Trayectoria', href: '/trayectoria' },
-	{ name: 'Compra nuestro chocolate', href: '/comprar' },
-	{ name: 'Chocoblog', href: '/blog' },
+	{ name: 'Nosotros', href: '/nosotros' },
+	{ name: 'Trayectoria', href: '/trayectoria' },
+	{ name: 'Chocolate', href: '/comprar' },
+	{ name: 'Blog', href: '/blog' },
 	{ name: 'Contáctanos', href: '/contacto' }
 ]
 

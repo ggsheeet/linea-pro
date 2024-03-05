@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { AOSProvider } from '@/lib/animations'
 import { NavMain } from '@/components/nav'
 import { Footer } from '@/components/footer'
 import { Prata, Raleway, Urbanist } from 'next/font/google'
@@ -58,6 +59,7 @@ export default function RootLayout({
 			<body
 				className={`${prata.variable} ${urbanist.variable} ${raleway.variable}`}
 			>
+				<AOSProvider />
 				<header>
 					<NavMain />
 				</header>

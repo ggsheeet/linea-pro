@@ -8,7 +8,7 @@ export const NavLink: React.FC<LinkProps> = ({
 	className = ''
 }) => {
 	return (
-		<Link href={href} rel='noopener noreferrer' className={className}>
+		<Link href={href} className={className}>
 			{children}
 		</Link>
 	)

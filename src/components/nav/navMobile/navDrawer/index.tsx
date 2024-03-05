@@ -19,7 +19,6 @@ export const NavDrawer: React.FC<DrawerProps> = ({ isOpen, toggleDrawer }) => {
 				<React.Fragment key={index}>
 					<Link
 						href={link.href}
-						rel='noopener noreferrer'
 						onClick={toggleDrawer}
 					>
 						{link.text}

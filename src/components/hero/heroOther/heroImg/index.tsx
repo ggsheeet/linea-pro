@@ -21,7 +21,7 @@ export const HeroImg = () => {
 							height={img.height}
 							loading='eager'
 							priority
-							className={isActive ? `${styles.hero_img}` : ' hidden'}
+							className={isActive ? `${styles.hero_img}` : 'hidden'}
 						/>
 					</React.Fragment>
 				)

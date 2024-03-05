@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import FooterLink from './footerLink'
 import { LogoMain } from '../imgs'
-import { FacebookSvg, InstaSvg } from '../svg'
+import { FacebookSvg, InstaSvg } from '@/components/svg'
 import styles from './Footer.module.css'
 
 export const Footer = () => {

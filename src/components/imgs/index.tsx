@@ -1,1 +1,0 @@
-export const LogoMain = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-logos/lp-logo.webp`
