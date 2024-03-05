@@ -8,7 +8,7 @@ export const HeroVideo = () => {
 			<video
 				width="1920"
 				height="1080"
-				preload='none'
+				preload='metadata'
 				autoPlay
 				muted
 				playsInline
