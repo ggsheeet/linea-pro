@@ -8,7 +8,7 @@ export const HeroCTA = () => {
 			<h2 data-aos='fade-up' data-aos-offset='-100'>
 				"El cacao debe ser nuevamente el protagonista del chocolate, no el azúcar"
 			</h2>
-			<span data-aos='fade-up' data-aos-offset='-100'>-Ana Parizot</span>
+			<span data-aos='fade-up' data-aos-offset='-100'>-Ana Parizot Wolter</span>
 		</div>
 	)
 }

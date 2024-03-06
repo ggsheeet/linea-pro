@@ -59,6 +59,7 @@
 
 	p {
 		width: 80%;
+		max-width: 640px;
 		font-family: var(--font-raleway);
 		font-size: 24px;
 		color: var(--clr-pepper);

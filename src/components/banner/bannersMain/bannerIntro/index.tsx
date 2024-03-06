@@ -7,7 +7,7 @@ import styles from './BannerIntro.module.css'
 export const BannerIntro = () => {
 	return (
 		<BannerLight>
-			<div className={styles.banner_img}>
+			<div className={`${styles.banner_img} drop-shadow-lg`}>
 				<Image alt='banner img' src={BannerImg} width={3648} height={5472} />
 			</div>
 			<div className={styles.banner_text}>

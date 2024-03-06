@@ -18,7 +18,7 @@ export const BannerWelcome = () => {
 				</p>
 				<button>Conócenos</button>
 			</div>
-			<div className={styles.carousel_container}>
+			<div className={`${styles.carousel_container} shadow-lg`}>
 				{[...Array(2)].map((_, index) => (
 					<ul key={index} className={styles.carousel_items}>
 						{bags.map((bag, index) => (
