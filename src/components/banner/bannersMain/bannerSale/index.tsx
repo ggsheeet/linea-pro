@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { BannerDark } from '../bannerContainer/bannerDark'
+import { BannerDark } from '../../bannerContainers/bannerDark'
 import { distribuitors } from '@/lib/mappedObjects'
 import styles from './BannerSale.module.css'
 

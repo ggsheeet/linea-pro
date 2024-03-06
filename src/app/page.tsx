@@ -1,7 +1,7 @@
 import { HeroMain } from '@/components/hero/heroMain'
-import { BannerWelcome } from '@/components/banner/bannerWelcome'
-import { BannerIntro } from '@/components/banner/bannerIntro'
-import { BannerSale } from '@/components/banner/bannerSale'
+import { BannerWelcome } from '@/components/banner/bannersMain/bannerWelcome'
+import { BannerIntro } from '@/components/banner/bannersMain/bannerIntro'
+import { BannerSale } from '@/components/banner/bannersMain/bannerSale'
 
 export default function Home({ params: { lng } }: { params: { lng: string } }) {
 	return (

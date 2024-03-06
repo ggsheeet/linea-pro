@@ -2,7 +2,7 @@
 	width: 40%;
 	padding-right: 38px;
 
-	h2 {
+	h1 {
 		font-family: var(--font-prata);
 		font-size: 36px;
 	}
@@ -34,7 +34,7 @@
 	}
 
 	@media (max-width: 1280px) {
-		h2 {
+		h1 {
 			font-size: 28px;
 		}
 
@@ -50,7 +50,7 @@
 	}
 
 	@media (max-width: 1024px) {
-		h2 {
+		h1 {
 			font-size: 19px;
 		}
 
@@ -67,7 +67,7 @@
 	}
 
 	@media (max-width: 768px) {
-		h2 {
+		h1 {
 			font-size: 21px;
 		}
 

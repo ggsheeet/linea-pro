@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { BannerLight } from '../bannerContainer/bannerLight'
+import { BannerLight } from '../../bannerContainers/bannerLight'
 import { BannerImg } from '@/components/media'
 import styles from './BannerIntro.module.css'
 

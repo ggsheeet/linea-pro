@@ -13,7 +13,7 @@ export const Footer = () => {
 					<div className={`${styles.footer_section} order-1 md:order-none`}>
 						<Image src={LogoMain} alt='lp-logo' width={1200} height={630} />
 					</div>
-					<div className={`${styles.footer_section} order-4 md:order-none`}>
+					<div className={`${styles.footer_section} order-3 md:order-none`}>
 						<h5 className={styles.footer_headers}>NAVEGAR</h5>
 						<Link href='/nosotros' className={styles.footer_nav}>
 							Quienes somos
@@ -40,7 +40,7 @@ export const Footer = () => {
 							<FooterLink href=''>© 2024 | All Rights Reserved</FooterLink>
 						</div>
 					</div>
-					<div className={`${styles.footer_section} order-3 md:order-none`}>
+					<div className={`${styles.footer_section} order-4 md:order-none`}>
 						<h5 className={styles.footer_headers}>SOCIAL</h5>
 						<div className={styles.footer_social}>
 							<FooterLink href=''>

@@ -1,0 +1,28 @@
+.reveal {
+	background: var(--clr-pepper);
+	padding-left: 30%;
+	padding-right: 10%;
+    text-align: center;
+}
+
+.reveal_text {
+	font-weight: 800;
+	font-size: 100px;
+	line-height: 200px;
+	color: var(--clr-pepper);
+	filter: drop-shadow(0 0 0.06rem rgb(255, 255, 255));
+}
+
+.spacing_small {
+	height: 20vh;
+}
+
+.spacing {
+	height: 10vh;
+}
+
+@media screen and (max-width: 500px) {
+	.reveal {
+		padding-left: 10px;
+	}
+}

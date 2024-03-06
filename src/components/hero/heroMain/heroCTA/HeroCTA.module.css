@@ -14,7 +14,7 @@
 	color: var(--clr-salt);
 	font-family: var(--font-petit);
 
-	h1 {
+	h2 {
 		font-family: var(--font-prata);
 		font-style: italic;
 		font-size: 39px;
@@ -28,7 +28,7 @@
 	}
 
 	@media (max-width: 1280px) {
-		h1 {
+		h2 {
 			font-size: 36px;
 		}
 
@@ -38,7 +38,7 @@
 	}
 
 	@media (max-width: 1024px) {
-		h1 {
+		h2 {
 			font-size: 31px;
 		}
 
@@ -48,7 +48,7 @@
 	}
 
 	@media (max-width: 768px) {
-		h1 {
+		h2 {
 			font-size: 24px;
 		}
 

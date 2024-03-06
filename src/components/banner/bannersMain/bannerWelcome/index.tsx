@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import { BannerLight } from '../bannerContainer/bannerLight'
+import { BannerLight } from '../../bannerContainers/bannerLight'
 import { bags } from '@/lib/mappedObjects'
 import styles from './BannerWelcome.module.css'
 
@@ -9,7 +9,7 @@ export const BannerWelcome = () => {
 	return (
 		<BannerLight>
 			<div className={styles.welcome}>
-				<h2>Bienvenido a LÍNEA PRO</h2>
+				<h1>Bienvenido a LÍNEA PRO</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
