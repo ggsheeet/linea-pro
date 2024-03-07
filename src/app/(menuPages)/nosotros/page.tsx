@@ -11,10 +11,11 @@ const AboutUs = () => {
 			<div className={styles.container}>
 				<div className={styles.about_us}>
 					<p>
-						<span className={styles.span_1}>LÍNEA PRO</span> ES UNA MARCA{' '}
-						<span className={styles.span_2}>100%</span> <span className={styles.span_3}>MEXICANA</span>
-						<br />APASIONADA POR LA RIQUEZA DE NUESTRA TIERRA, <br />
-						DONDE HACEMOS DEL <span className={styles.span_4}>CACAO</span> LA
+						<span className={styles.span_1}>LÍNEA PRO</span> | CHOCOLATE
+						MEXICANO
+						<br />
+						APASIONADOS POR LA RIQUEZA DE NUESTRA TIERRA <br />
+						QUEREMOS HACER DEL <span className={styles.span_2}>CACAO</span> LA
 						ESTRELLA DEL MOMENTO
 					</p>
 					<Image src={TreeIcon} alt='cacao-tree' width={799} height={851} />

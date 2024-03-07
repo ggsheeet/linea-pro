@@ -29,18 +29,6 @@
 			}
 
 			.span_2 {
-				font-family: var(--font-urbanist);
-			}
-
-			.span_3 {
-				background: -webkit-linear-gradient(45deg, #1fe9a2, #e60c8f);
-				background-clip: text;
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-				font-weight: 600;
-			}
-
-			.span_4 {
 				color: var(--clr-choc);
                 font-weight: 600;
 			}
