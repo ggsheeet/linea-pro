@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 				height: 630
 			}
 		],
-		url: 'http://localhost:8000',
+		url: 'chocolatepro.mx',
 		type: 'website'
 	},
 	icons: {
