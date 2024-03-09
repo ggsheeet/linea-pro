@@ -15,21 +15,24 @@ export const Footer = () => {
 					</div>
 					<div className={`${styles.footer_section} order-3 md:order-none`}>
 						<h5 className={styles.footer_headers}>NAVEGAR</h5>
+						<Link href='/' className={styles.footer_nav}>
+							Inicio
+						</Link>
 						<Link href='/nosotros' className={styles.footer_nav}>
 							Quienes somos
 						</Link>
-						<Link href='/trayectoria' className={styles.footer_nav}>
+						{/* <Link href='/trayectoria' className={styles.footer_nav}>
 							Trayectoria
-						</Link>
+						</Link> */}
 						<Link href='/compra' className={styles.footer_nav}>
 							Quiero Chocolate
 						</Link>
-						<Link href='/blog' className={styles.footer_nav}>
+						{/* <Link href='/blog' className={styles.footer_nav}>
 							Blog
-						</Link>
-						<Link href='/contacto' className={styles.footer_nav}>
+						</Link> */}
+						{/* <Link href='/contacto' className={styles.footer_nav}>
 							Contáctanos
-						</Link>
+						</Link> */}
 					</div>
 					{/* <div className={`${styles.footer_section} order-2 md:order-none`}>
 						<h5 className={styles.footer_headers}>LEGAL</h5>
