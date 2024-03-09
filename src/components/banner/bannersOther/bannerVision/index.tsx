@@ -7,10 +7,11 @@ export const BannerVision = () => {
 		<BannerNosotros>
 			<div className={styles.banner_text}>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.
+					Aspiramos a ser innovadores en la promoción de prácticas sostenibles,
+					estableciendo estándares éticos que inspiren a la industria
+					chocolatera. Visualizamos un impacto positivo no solo en la
+					experiencia del consumidor, sino también en las comunidades
+					productoras y en el medio ambiente.
 				</p>
 			</div>
 			<div className={styles.banner_header}>

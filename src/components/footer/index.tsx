@@ -31,7 +31,7 @@ export const Footer = () => {
 							Contáctanos
 						</Link>
 					</div>
-					<div className={`${styles.footer_section} order-2 md:order-none`}>
+					{/* <div className={`${styles.footer_section} order-2 md:order-none`}>
 						<h5 className={styles.footer_headers}>LEGAL</h5>
 						<div className={styles.footer_legal}>
 							<FooterLink href=''>Aviso de Privacidad</FooterLink>
@@ -39,8 +39,8 @@ export const Footer = () => {
 						<div className={styles.footer_legal}>
 							<FooterLink href=''>© 2024 | All Rights Reserved</FooterLink>
 						</div>
-					</div>
-					<div className={`${styles.footer_section} order-4 md:order-none`}>
+					</div> */}
+					{/* <div className={`${styles.footer_section} order-4 md:order-none`}>
 						<h5 className={styles.footer_headers}>SOCIAL</h5>
 						<div className={styles.footer_social}>
 							<FooterLink href=''>
@@ -50,7 +50,7 @@ export const Footer = () => {
 								<FacebookSvg />
 							</FooterLink>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

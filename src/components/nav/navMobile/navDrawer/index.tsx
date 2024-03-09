@@ -6,10 +6,10 @@ import styles from './NavDrawer.module.css'
 const navLinks = [
 	{ href: '/', text: 'Inicio' },
 	{ href: '/nosotros', text: 'Quienes Somos' },
-	{ href: '/trayectoria', text: 'Trayectoria' },
+	// { href: '/trayectoria', text: 'Trayectoria' },
 	{ href: '/comprar', text: 'Quiero Chocolate' },
-	{ href: '/blog', text: 'Blog' },
-	{ href: '/contacto', text: 'Contacto' }
+	// { href: '/blog', text: 'Blog' },
+	// { href: '/contacto', text: 'Contacto' }
 ]
 
 export const NavDrawer: React.FC<DrawerProps> = ({ isOpen, toggleDrawer }) => {

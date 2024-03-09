@@ -20,6 +20,7 @@ const config: Config = {
         'brand-offwhite': 'var(--clr-offwhite)',
         'brand-pepper': 'var(--clr-pepper)',
         'brand-link': 'var(--clr-link)',
+        'brand-dark-choc': 'var(--clr-dark-choc)',
         'brand-choc': 'var(--clr-choc)',
         'brand-cacao': 'var(--clr-cacao)'
       }

@@ -11,12 +11,13 @@ export const BannerWelcome = () => {
 			<div className={styles.welcome}>
 				<h1>Bienvenido a LÍNEA PRO</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.
+					En nuestro espacio virtual, te invitamos a descubrir el encanto del
+					chocolate mexicano de la más alta calidad. En Línea Pro, no solo
+					encuentras exquisitas creaciones chocolateras, sino la llave para
+					transformar tus momentos culinarios.<br /> <br />Cada producto ha sido
+					seleccionado para inspirar tus creaciones y elevar
+					tus experiencias gastronómicas.
 				</p>
-				<button>Conócenos</button>
 			</div>
 			<div className={`${styles.carousel_container} shadow-lg`}>
 				{[...Array(2)].map((_, index) => (
@@ -29,8 +30,8 @@ export const BannerWelcome = () => {
 									alt={bag.alt}
 									loading='eager'
 									priority
-									width={433}
-									height={577}
+									width={bag.width}
+									height={bag.height}
 								/>
 							</li>
 						))}

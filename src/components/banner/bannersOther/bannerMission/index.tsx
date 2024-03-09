@@ -12,10 +12,10 @@ export const BannerMission = () => {
 			</div>
 			<div className={styles.banner_text}>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.
+					Preservar la tradición chocolatera mexicana con productos
+					excepcionales y trazables. Colaborando con marcas comprometidas,
+					buscando ser referente confiable para quienes disfrutan y comparten el
+					chocolate mexicano, ofreciendo experiencias gastronómicas únicas.{' '}
 				</p>
 			</div>
 		</BannerNosotros>

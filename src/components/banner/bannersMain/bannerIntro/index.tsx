@@ -1,30 +1,29 @@
 import React from 'react'
 import Image from 'next/image'
-import { BannerLight } from '../../bannerContainers/bannerLight'
+import { BannerLightOther } from '../../bannerContainers/bannerLightOther'
 import { BannerImg } from '@/components/media'
 import styles from './BannerIntro.module.css'
 
 export const BannerIntro = () => {
 	return (
-		<BannerLight>
-			<div className={`${styles.banner_img} drop-shadow-lg`}>
-				<Image alt='banner img' src={BannerImg} width={3648} height={5472} />
+		<BannerLightOther>
+			<h3 className={styles.apps_title}>Aplicaciones</h3>
+			<div className={styles.apps_container}>
+				<div className={`${styles.banner_img} drop-shadow-lg`}>
+					<Image alt='banner img' src={BannerImg} width={3648} height={5472} />
+				</div>
+				<div className={styles.banner_text}>
+					<ul>
+						<li>Melters<p>Barras plana, o con inclusiones, Barks, Monedas...</p></li>
+						<li>Pastelería<p>Ganache para relleno o cubierta, Figuras, Texturas, Decoración...</p></li>
+						<li>Panadería<p>Mousses, Cremas, Salsas, Coulis...</p></li>
+						<li>Chocolatería Fina<p>Bombones, Trufas, Macarrones...</p></li>
+						<li>Cata Maridaje<p>Con Vinos, Licores, Café, Quesos...</p></li>
+						<li>Bebidas<p>Blends, Mocha, Bebida Europea...</p></li>
+						<li>Heladería<p>Como Ingrediente o Topping...</p></li>
+					</ul>
+				</div>
 			</div>
-			<div className={styles.banner_text}>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.
-				</p>
-				<p>
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-					dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est
-					laborum.
-				</p>
-				<button>Ver Trayectoria</button>
-			</div>
-		</BannerLight>
+		</BannerLightOther>
 	)
 }

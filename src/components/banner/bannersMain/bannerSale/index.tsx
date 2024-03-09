@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { BannerDark } from '../../bannerContainers/bannerDark'
 import { distribuitors } from '@/lib/mappedObjects'
 import styles from './BannerSale.module.css'
@@ -12,7 +13,9 @@ export const BannerSale = () => {
 					<h3>
 						Obten tu chocolate a través de nuestros distribuidores autorizados
 					</h3>
-					<button>Quiero Chocolate</button>
+					<Link href='/comprar'>
+						<button>Quiero Chocolate</button>
+					</Link>
 				</div>
 				<div className={styles.sale_img}>
 					{distribuitors.map((dist, index) => (
@@ -25,7 +28,9 @@ export const BannerSale = () => {
 						/>
 					))}
 				</div>
-				<button>Quiero Chocolate</button>
+				<Link href='/comprar'>
+					<button>Quiero Chocolate</button>
+				</Link>
 			</div>
 		</BannerDark>
 	)
