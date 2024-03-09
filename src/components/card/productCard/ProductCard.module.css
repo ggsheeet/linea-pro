@@ -123,14 +123,12 @@
 
 	.card_title {
 		font-family: var(--font-prata);
-		font-weight: 600;
 		font-size: 25px;
 		color: var(--clr-salt);
 		z-index: 2;
 	}
 
 	.card_description {
-		font-weight: 400;
 		font-size: 18px;
 		color: var(--clr-salt);
 		letter-spacing: 0.5px;
