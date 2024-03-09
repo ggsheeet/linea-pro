@@ -24,7 +24,7 @@ export const Footer = () => {
 						{/* <Link href='/trayectoria' className={styles.footer_nav}>
 							Trayectoria
 						</Link> */}
-						<Link href='/compra' className={styles.footer_nav}>
+						<Link href='/comprar' className={styles.footer_nav}>
 							Quiero Chocolate
 						</Link>
 						{/* <Link href='/blog' className={styles.footer_nav}>
