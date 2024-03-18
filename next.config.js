@@ -22,6 +22,10 @@ const nextConfig = {
 					{
 						key: 'Content-Security-Policy',
 						value: cspHeader.replace(/\n/g, '')
+					},
+					{
+						key: 'Cache-Control',
+						value: 'public, max-age=604800'
 					}
 				]
 			}
