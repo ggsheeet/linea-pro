@@ -25,7 +25,7 @@ const raleway = Raleway({
 const favicon = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-logos/favicon.ico`
 
 export const metadata: Metadata = {
-	metadataBase: new URL('https://www.chocolateepro.mx'),
+	metadataBase: new URL('https://www.chocolatepro.mx'),
 	title: 'LÍNEA PRO | CHOCOLATE MEXICANO',
 	description: 'Chocolate de uso profesional 100% mexicano cultivado en Tabasco',
 	openGraph: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 				height: 630
 			}
 		],
-		url: 'chocolatepro.mx',
+		url: 'https://www.chocolatepro.mx',
 		type: 'website'
 	},
 	icons: {
