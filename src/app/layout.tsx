@@ -22,7 +22,7 @@ const raleway = Raleway({
 	display: 'swap'
 })
 
-const favicon = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-logos/favicon.ico`
+const favicon = '/favicon.ico'
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://www.chocolatepro.mx'),
