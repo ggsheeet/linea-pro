@@ -132,6 +132,37 @@ export const bags = [
 	}
 ]
 
+export const apps = [
+	{
+		title: 'Melters',
+		description: 'Barras plana, o con inclusiones, Barks, Monedas...'
+	},
+	{
+		title: 'Pastelería',
+		description: 'Ganache para relleno o cubierta, Figuras, Texturas, Decoración...'
+	},
+	{
+		title: 'Panadería',
+		description: 'Mousses, Cremas, Salsas, Coulis...'
+	},
+	{
+		title: 'Chocolatería Fina',
+		description: 'Bombones, Trufas, Macarrones...'
+	},
+	{
+		title: 'Cata Maridaje',
+		description: 'Con Vinos, Licores, Café, Quesos...'
+	},
+	{
+		title: 'Bebidas',
+		description: 'Blends, Mocha, Bebida Europea...'
+	},
+	{
+		title: 'Heladería',
+		description: 'Como Ingrediente o Topping...'
+	}
+]
+
 export const bagCards = [
 	{
 		imgSrc: `${bags[1].src}`,

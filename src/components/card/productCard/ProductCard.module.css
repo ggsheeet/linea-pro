@@ -20,10 +20,14 @@
 		justify-content: space-between;
 		z-index: 2;
 
-		.card_icon img {
-			position: absolute;
-			width: 52px;
-			height: 40px;
+		.card_icon {
+			width: 100%;
+			
+			img {
+				position: absolute;
+				width: 52px;
+				height: 40px;
+			}
 		}
 
 		.card_price {
@@ -34,43 +38,80 @@
 			color: var(--clr-salt);
 		}
 
-		button {
-			display: inline-block;
-            background-color: var(--clr-salt);
-            font-family: var(--font-raleway);
+		.card_button {
+			display: flex;
+			align-items: center;
+			background-color: var(--clr-salt);
+			font-family: var(--font-raleway);
 			font-weight: 500;
-            font-size: 19px;
-            color: var(--clr-pepper);
+			font-size: 19px;
+			color: var(--clr-pepper);
 			border: 3px solid var(--clr-salt);
 			border-radius: 8px;
 			transition: background-color 0.2s, color 0.3s;
-            padding: 10px 14px;
+			column-gap: 10px;
+			padding: 10px 14px;
+
+			div {
+				width: 27px;
+				height: 27px;
+				background-image: url('https://linea-pro.s3.us-east-2.amazonaws.com/lp-icons/amazon-min.webp');
+				background-size: 24px 24px;
+				background-position: bottom;
+				background-repeat: no-repeat;
+				object-fit: contain;
+				transition: background-image 0.2s;
+			}
 
 			&:hover {
 				background-color: var(--clr-pepper);
 				color: var(--clr-salt);
+
+				div {
+					background-image: url('https://linea-pro.s3.us-east-2.amazonaws.com/lp-icons/amazon-min-alt.webp');
+				}
+			}
+
+			@media (max-width: 1024px) {
+				div {
+					width: 26px;
+					height: 26px;
+					background-size: 22px 22px;
+					background-position: 50% 80%;
+				}
+			}
+
+			@media (max-width: 768px) {
+				div {
+					width: 24px;
+					height: 24px;
+					background-size: 20px 20px;
+					background-position: 50% 80%;
+				}
 			}
 		}
 
 		@media (max-width: 1280px) {
-            .card_price {
+			.card_price {
 				font-size: 25px;
 			}
 
-			button {
+			.card_button {
 				font-size: 18px;
 				padding: 9px 12px;
 			}
 		}
 
 		@media (max-width: 1024px) {
-            .card_price {
+			.card_price {
 				font-size: 22px;
+				align-self: center;
 			}
 
-			button {
+			.card_button {
 				padding: 8px 10px;
 				font-size: 16px;
+				column-gap: 6px;
 			}
 		}
 
@@ -79,9 +120,10 @@
 				font-size: 20px;
 			}
 
-			button {
+			.card_button {
 				font-size: 14px;
 				font-weight: 500;
+				text-align: center;
 				border-radius: 4px;
 				padding: 6px 9px;
 
@@ -129,6 +171,7 @@
 	}
 
 	.card_description {
+		min-height: 20%;
 		font-size: 18px;
 		color: var(--clr-salt);
 		letter-spacing: 0.5px;
@@ -144,7 +187,21 @@
 		}
 
 		.card_description {
+			min-height: 10%;
 			font-size: 15px;
 		}
+	}
+
+	@media (max-width: 400px) {
+		.card_wrapper {
+			flex-direction: column;
+			row-gap: 20px;
+		}
+	}
+}
+
+@media (max-width: 1280px) {
+	.card {
+		row-gap: 18px;
 	}
 }

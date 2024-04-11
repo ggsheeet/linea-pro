@@ -8,4 +8,6 @@ export const BannerImg = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-fillers/cac
 
 export const TreeIcon = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-fillers/cacao-tree.webp`
 
-export const Wolter = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-logos/wolter-logo.webp`
+export const WolterIcon = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-icons/wolter-min.webp`
+
+export const AmazonIcon = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}lp-icons/amazon-min.webp`
