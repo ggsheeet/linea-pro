@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 import { AOSProvider } from '@/lib/animations'
 import { NavMain } from '@/components/nav'
 import { Footer } from '@/components/footer'
@@ -56,6 +57,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='es'>
+			<GoogleAnalytics gaId='G-0RQH4ZZQ2W' />
+			<GoogleTagManager gtmId='GTM-539KTHW4' />
 			<body
 				className={`${prata.variable} ${urbanist.variable} ${raleway.variable}`}
 			>

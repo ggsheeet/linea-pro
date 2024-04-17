@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const cspHeader = `
     default-src 'self';
-    script-src 'self' 'unsafe-eval' 'unsafe-inline';
+	connect-src ${process.env.NEXT_PUBLIC_WP_GQL_URL} https://analytics.google.com http://localhost:8000 ws://localhost:8000;
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com;
     style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: data: ${process.env.NEXT_PUBLIC_S3_BUCKET_URL};
+    img-src 'self' blob: data: ${process.env.NEXT_PUBLIC_S3_BUCKET_URL} ${process.env.NEXT_PUBLIC_WP_GQL_URL};
 	media-src ${process.env.NEXT_PUBLIC_S3_BUCKET_URL};
     font-src 'self';
     object-src 'none';
@@ -36,6 +37,10 @@ const nextConfig = {
 			{
 				protocol: 'https',
 				hostname: 'linea-pro.s3.us-east-2.amazonaws.com'
+			},
+			{
+				protocol: 'https',
+				hostname: 'wp.chocolatepro.mx'
 			}
 		]
 	}
