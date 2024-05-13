@@ -6,8 +6,13 @@ import { BannerVision } from '@/components/banner/bannersOther/bannerVision'
 import styles from './Nosotros.module.css'
 import { TreeIcon } from '@/components/media'
 
-export const metadata: Metadata =  {
-		title: 'Quienes Somos'
+export const metadata: Metadata = {
+	title: 'Quienes Somos',
+	openGraph: {
+		title: 'Quienes Somos',
+		description:
+			'Apasionados por la riqueza de nuestra tierra, queremos hacer del cacao la estrella del momento'
+	}
 }
 
 const AboutUs = () => {
