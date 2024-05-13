@@ -23,6 +23,9 @@ export const metadata: Metadata = {
         ],
         url: 'https://www.chocolatepro.mx',
         type: 'website'
+    },
+    alternates: {
+        canonical: './',
     }
 }
 
