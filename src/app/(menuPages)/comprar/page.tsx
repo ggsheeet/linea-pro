@@ -7,7 +7,18 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Quiero Chocolate',
 		description:
-			'Obten tu chocolate a través de nuestros distribuidores autorizados'
+			'Obten tu chocolate a través de nuestros distribuidores autorizados',
+		images: [
+			{
+				secureUrl:
+					'https://linea-pro.s3.us-east-2.amazonaws.com/lp-logos/lp-og.webp',
+				url: 'https://linea-pro.s3.us-east-2.amazonaws.com/lp-logos/lp-og.webp',
+				width: 1200,
+				height: 630
+			}
+		],
+		url: 'https://www.chocolatepro.mx/comprar',
+		type: 'website'
 	}
 }
 
