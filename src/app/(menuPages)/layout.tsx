@@ -3,10 +3,13 @@ import { HeroOther } from '@/components/hero/heroOther'
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.chocolatepro.mx'),
-    title: 'LÍNEA PRO | CHOCOLATE MEXICANO',
+    title: {
+        default: 'LÍNEA PRO',
+        template: "%s"
+    },
     description: 'Chocoalte de uso profesional 100% mexicano cultivado en Tabasco',
     openGraph: {
-        title: 'LÍNEA PRO | CHOCOLATE MEXICANO',
+        title: '%s | LÍNEA PRO',
         description:
             'Chocoalte de uso profesional 100% mexicano cultivado en Tabasco',
         images: [

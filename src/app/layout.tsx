@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
-import { AOSProvider } from '@/lib/animations'
 import { NavMain } from '@/components/nav'
 import { Footer } from '@/components/footer'
 import { Prata, Raleway, Urbanist } from 'next/font/google'
@@ -27,7 +26,7 @@ const favicon = '/favicon.ico'
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://www.chocolatepro.mx'),
-	title: 'LÍNEA PRO | CHOCOLATE MEXICANO',
+	title: 'LÍNEA PRO CHOCOLATE MEXICANO',
 	description: 'Chocolate de uso profesional 100% mexicano cultivado en Tabasco',
 	openGraph: {
 		title: 'LÍNEA PRO | CHOCOLATE MEXICANO',
@@ -62,7 +61,6 @@ export default function RootLayout({
 			<body
 				className={`${prata.variable} ${urbanist.variable} ${raleway.variable}`}
 			>
-				<AOSProvider />
 				<header>
 					<NavMain />
 				</header>

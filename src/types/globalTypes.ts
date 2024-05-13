@@ -12,3 +12,29 @@ export type DrawerProps = {
 export type WrapperProps = {
 	children: React.ReactNode
 }
+
+export type RecipeProps = {
+	title: string
+	excerpt: string
+	content?: string
+	slug: string
+	featuredImage: {
+		node: {
+			sourceUrl: string
+			mediaDetails: {
+				width: number
+				height: number
+			}
+		}
+	}
+	tags?: {
+		nodes: {
+			name: string
+		}[]
+	}
+}
+
+export type DataContextProps = {
+	recipes: RecipeProps[]
+	loading: boolean
+}

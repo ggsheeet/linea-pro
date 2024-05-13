@@ -1,6 +1,10 @@
 import React from 'react'
-import ProductCard from '@/components/card/productCard'
+import { Metadata } from 'next'
 import CardGrid from '@/components/card/cardGrid'
+
+export const metadata: Metadata =  {
+	title: 'Quiero Chocolate'
+}
 
 const Buy = () => {
 	return (

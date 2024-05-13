@@ -1,9 +1,14 @@
 import React from 'react'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import { BannerMission } from '@/components/banner/bannersOther/bannerMission'
 import { BannerVision } from '@/components/banner/bannersOther/bannerVision'
 import styles from './Nosotros.module.css'
 import { TreeIcon } from '@/components/media'
+
+export const metadata: Metadata =  {
+		title: 'Quienes Somos'
+}
 
 const AboutUs = () => {
 	return (
