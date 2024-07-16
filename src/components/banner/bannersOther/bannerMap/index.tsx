@@ -14,11 +14,10 @@ import {
 import styles from './BannerMap.module.css'
 
 const BannerMap = () => {
-	const [openModal, setOpenModal] = useState<number>(0)
+	const [openModal, setOpenModal] = useState<number>(1)
 
 	const handleOpenModal = (index: number) => {
 		setOpenModal(index)
-		console.log(openModal)
 	}
 
 	const targets = [

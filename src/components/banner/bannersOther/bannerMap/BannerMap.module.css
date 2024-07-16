@@ -242,16 +242,40 @@
 		}
 	}
 
+	@media (max-width: 540px) {
+		.map_target_bc,
+		.map_target_mty,
+		.map_target_cdmx {
+			.target_bullseye {
+				width: 140%;
+				background-color: var(--clr-target);
+				padding-top: 140%;
+				box-shadow: 0 0 8px 4px var(--clr-target);
+			}
+		}
+
+		.map_target_active_bc,
+		.map_target_active_mty,
+		.map_target_active_cdmx {
+			.target_bullseye_active {
+				width: 140%;
+				background-color: var(--clr-milk);
+				padding-top: 140%;
+				box-shadow: 0 0 8px 4px var(--clr-milk);
+			}
+		}
+	}
+
 	/* Modal styles */
 	.modal_text {
 		:nth-child(3n):not(:last-child) {
 			padding-bottom: 15px;
 		}
 
-		h5 {
+		a {
 			font-weight: 600;
 			font-size: 20px;
-			text-decoration: underline 1px;
+			text-decoration: underline 2px;
 			text-underline-offset: 2px;
 			padding-bottom: 3px;
 			color: var(--clr-dark-choc);
@@ -265,7 +289,7 @@
 
 	@media (max-width: 1280px) {
 		.modal_text {
-			h5 {
+			a {
 				font-size: 19px;
 			}
 		}
@@ -273,7 +297,7 @@
 
 	@media (max-width: 1024px) {
 		.modal_text {
-			h5 {
+			a {
 				font-size: 16px;
 			}
 
@@ -285,8 +309,10 @@
 
 	@media (max-width: 768px) {
 		.modal_text {
-			h5 {
+			a {
 				font-size: 13px;
+				text-decoration: underline 1px;
+				text-underline-offset: 2px;
 			}
 
 			p {
@@ -365,6 +391,20 @@
 		}
 	}
 
+	@media (max-width: 540px) {
+		.modal_inactive {
+			padding: 0px 8px;
+		}
+
+		.modal_active_bc,
+		.modal_active_mty {
+			padding: 4px 8px;
+		}
+		.modal_active_cdmx {
+			padding: 4px 8px;
+		}
+	}
+
 	/* Location styles */
 	.map_location_bc,
 	.map_location_mty,
@@ -374,7 +414,6 @@
 		font-size: 36px;
 		font-weight: 600;
 		color: var(--clr-choc);
-		text-shadow: 0 0 2px var(--clr-choc);
 	}
 
 	@media (max-width: 1280px) {
@@ -382,7 +421,6 @@
 		.map_location_mty,
 		.map_location_cdmx {
 			font-size: 30px;
-			font-weight: 600;
 		}
 	}
 
@@ -391,7 +429,6 @@
 		.map_location_mty,
 		.map_location_cdmx {
 			font-size: 28px;
-			font-weight: 500;
 		}
 	}
 
@@ -457,6 +494,12 @@
 		}
 	}
 
+	@media (max-width: 540px) {
+		.modal_bc {
+			transform: translate(-3%, -11%);
+		}
+	}
+
 	/* MTY */
 	.map_target_mty {
 		top: 40.5%;
@@ -498,6 +541,12 @@
 		}
 	}
 
+	@media (max-width: 540px) {
+		.modal_mty {
+			transform: translate(-94.5%, -11%);
+		}
+	}
+
 	/* CDMX */
 	.map_target_cdmx {
 		top: 71.4%;
@@ -525,6 +574,12 @@
 		.map_location_cdmx {
 			top: 68%;
 			left: 62.5%;
+		}
+	}
+
+	@media (max-width: 540px) {
+		.modal_cdmx {
+			transform: translate(-95.5%, -3%);
 		}
 	}
 
@@ -621,3 +676,10 @@
 		margin-bottom: 80px;
 	}
 }
+
+@media (max-width: 540px) {
+	.map_img {
+		margin-bottom: 60px;
+	}
+}
+
