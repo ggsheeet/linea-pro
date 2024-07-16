@@ -8,3 +8,5 @@ The tools integrated within this project include:
 - CSS modules
 - NextJS App Router
 - Reusable Function Components
+
+Take a look at the website by navigating to https://www.chocolatepro.mx/
