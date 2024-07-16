@@ -43,17 +43,17 @@ export const Footer = () => {
 							<FooterLink href=''>© 2024 | All Rights Reserved</FooterLink>
 						</div>
 					</div> */}
-					{/* <div className={`${styles.footer_section} order-4 md:order-none`}>
+					<div className={`${styles.footer_section} order-4 md:order-none`}>
 						<h5 className={styles.footer_headers}>SOCIAL</h5>
 						<div className={styles.footer_social}>
-							<FooterLink href=''>
+							<FooterLink href='https://www.instagram.com/chocolatepro.mx/'>
 								<InstaSvg />
 							</FooterLink>
-							<FooterLink href=''>
+							{/* <FooterLink href=''>
 								<FacebookSvg />
-							</FooterLink>
+							</FooterLink> */}
 						</div>
-					</div> */}
+					</div>
 				</div>
 			</div>
 		</div>

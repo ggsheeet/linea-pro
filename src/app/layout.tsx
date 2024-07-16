@@ -29,6 +29,7 @@ export const metadata: Metadata = {
 	title: 'LÍNEA PRO CHOCOLATE MEXICANO',
 	description: 'Chocolate de uso profesional 100% mexicano cultivado en Tabasco',
 	openGraph: {
+		siteName: 'Línea Pro',
 		title: 'LÍNEA PRO | CHOCOLATE MEXICANO',
 		description:
 			'Chocolate de uso profesional 100% mexicano cultivado en Tabasco',

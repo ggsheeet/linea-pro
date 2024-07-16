@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import { BannerLightOther } from '../../bannerContainers/bannerLightOther'
-import { BannerImg } from '@/components/media'
+import { BannerAppsImg } from '@/components/media'
 import { apps } from '@/lib/mappedObjects'
 import styles from './BannerApps.module.css'
 
@@ -18,7 +18,7 @@ export const BannerApps = () => {
 			<h3 className={styles.apps_title}>Aplicaciones</h3>
 			<div className={styles.apps_container}>
 				<div className={`${styles.banner_img} drop-shadow-lg`}>
-					<Image alt='banner img' src={BannerImg} width={3648} height={5472} />
+					<Image alt='banner img' src={BannerAppsImg} width={3648} height={5472} />
 				</div>
 				<div className={styles.banner_apps}>
 					<div className={styles.banner_content}>

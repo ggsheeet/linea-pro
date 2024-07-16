@@ -61,7 +61,7 @@
 					justify-content: center;
 					column-gap: 1rem;
 					margin-top: 0.75rem;
-					margin-left: 0.25rem;
+					margin-left: 0rem; /* 0.25rem */
 				}
 
 				a {
@@ -97,7 +97,7 @@
 
 					.footer_social {
 						justify-content: center;
-						margin-left: 0.125rem;
+						margin-left: 0rem; /* 0.125rem */
 					}
 				}
 			}

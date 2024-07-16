@@ -1,6 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next'
 import CardGrid from '@/components/card/cardGrid'
+import BannerMap from '@/components/banner/bannersOther/bannerMap'
 
 export const metadata: Metadata = {
 	title: 'Quiero Chocolate',
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
 			}
 		],
 		url: 'https://www.chocolatepro.mx/comprar',
-		type: 'website'
+		type: 'website',
 	}
 }
 
@@ -26,6 +27,7 @@ const Buy = () => {
 	return (
 		<>
 			<CardGrid />
+			<BannerMap />
 		</>
 	)
 }

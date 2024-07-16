@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const cspHeader = `
     default-src 'self';
-	connect-src ${process.env.NEXT_PUBLIC_WP_GQL_URL} https://www.chocolatepro.mx https://www.google-analytics.com/ https://analytics.google.com http://localhost:8000 ws://localhost:8000;
+	connect-src ${process.env.NEXT_PUBLIC_WP_GQL_URL} https://www.chocolatepro.mx https://www.google-analytics.com/ https://analytics.google.com http://localhost:4000 ws://localhost:4000;
     script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com;
     style-src 'self' 'unsafe-inline';
     img-src 'self' blob: data: ${process.env.NEXT_PUBLIC_S3_BUCKET_URL} ${process.env.NEXT_PUBLIC_WP_GQL_URL};

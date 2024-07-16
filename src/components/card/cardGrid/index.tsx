@@ -1,7 +1,6 @@
 import React from 'react'
 import ProductCard from '../productCard'
 import styles from './CardGrid.module.css'
-import { Caladea } from 'next/font/google'
 
 const CardGrid = () => {
 	return (
