@@ -275,7 +275,8 @@
 		a {
 			font-weight: 600;
 			font-size: 20px;
-			text-decoration: underline 2px;
+			text-decoration-line: underline;
+			text-decoration-thickness: 2px;
 			text-underline-offset: 2px;
 			padding-bottom: 3px;
 			color: var(--clr-dark-choc);
@@ -311,8 +312,7 @@
 		.modal_text {
 			a {
 				font-size: 13px;
-				text-decoration: underline 1px;
-				text-underline-offset: 2px;
+				text-decoration-thickness: 1px;
 			}
 
 			p {
