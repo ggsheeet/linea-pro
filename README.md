@@ -9,4 +9,4 @@ The tools integrated within this project include:
 - NextJS App Router
 - Reusable Function Components
 
-Take a look at the website by navigating to [`chocolatepro.mx`](https://www.chocolatepro.mx/).
+Take a look at the website by navigating to [chocolatepro.mx](https://www.chocolatepro.mx/).
