@@ -9,7 +9,7 @@ export const BannerWelcome = () => {
 	return (
 		<BannerLight>
 			<div className={styles.welcome}>
-				<h1>Bienvenido a LÍNEA PRO</h1>
+				<h1>Bienvenido a Línea Pro</h1>
 				<p>
 					En nuestro espacio virtual, te invitamos a descubrir el encanto del
 					chocolate mexicano de la más alta calidad. En Línea Pro, no solo

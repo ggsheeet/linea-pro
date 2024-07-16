@@ -5,6 +5,9 @@ import BannerMap from '@/components/banner/bannersOther/bannerMap'
 
 export const metadata: Metadata = {
 	title: 'Quiero Chocolate',
+	alternates: {
+		canonical: 'https://www.chocolatepro.mx/comprar'
+	},
 	openGraph: {
 		title: 'Quiero Chocolate',
 		description:

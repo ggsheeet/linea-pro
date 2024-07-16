@@ -8,6 +8,9 @@ import { TreeIcon } from '@/components/media'
 
 export const metadata: Metadata = {
 	title: 'Quienes Somos',
+	alternates: {
+		canonical: 'https://www.chocolatepro.mx/nosotros'
+	},
 	openGraph: {
 		title: 'Quienes Somos',
 		description:

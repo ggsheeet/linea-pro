@@ -47,7 +47,7 @@ export const heroImgs = [
 export const heroCTAs = [
 	{ name: 'Nosotros', href: '/nosotros' },
 	{ name: 'Trayectoria', href: '/trayectoria' },
-	{ name: 'Chocolate', href: '/comprar' },
+	{ name: 'Compra tu chocolate', href: '/comprar' },
 	{ name: 'Blog', href: '/blog' },
 	{ name: 'Contáctanos', href: '/contacto' }
 ]
