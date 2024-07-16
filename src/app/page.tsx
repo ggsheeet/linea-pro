@@ -5,9 +5,12 @@ import { BannerApps } from '@/components/banner/bannersMain/bannerApps'
 import { BannerSale } from '@/components/banner/bannersMain/bannerSale'
 
 export const metadata: Metadata =  {
-	title: 'Bienvenido a Linea Pro',
+	title: 'Linea Pro Chocolate Mexicano',
 	alternates: {
 		canonical: 'https://www.chocolatepro.mx/'
+	},
+	openGraph: {
+		siteName: 'Linea Pro Chocolate Mexicano'
 	}
 }
 
