@@ -57,13 +57,13 @@
 						padding: 6px;
 						transform: rotate(45deg);
 						-webkit-transform: rotate(45deg);
-						transition: all 0.4s linear;
+						transition: all 0.4s ease-in-out;
 						z-index: 2;
 					}
 
 					.app_arrow.active {
 						border-color: #333;
-						transition: all 0.4s linear;
+						transition: all 0.4s ease-in-out;
 						transform: rotate(-135deg);
 						-webkit-transform: rotate(-135deg);
 					}
@@ -98,7 +98,7 @@
 						font-weight: 500;
 						font-size: 23px;
 						color: #333;
-						transition: all 0.4s linear;
+						transition: all 0.4s ease-in-out;
 					}
 
 					@media (max-width: 1280px) {
@@ -117,7 +117,7 @@
 				.app_info {
 					height: 10px;
 					margin-bottom: 0px;
-					transition: all 0.4s linear;
+					transition: all 0.4s ease-in-out;
 
 					p {
 						font-family: var(--font-poppins);
@@ -143,12 +143,12 @@
 				.app_info.active {
 					height: auto;
 					margin-bottom: 40px;
-					transition: all 0.4s linear;
+					transition: all 0.4s ease-in-out;
 
 					p {
 						opacity: 1;
 
-						transition: all 0.4s linear;
+						transition: all 0.4s ease-in-out;
 					}
 				}
 
@@ -157,7 +157,7 @@
 					.app_info.active {
 						height: auto;
 						margin-bottom: 35px;
-						transition: all 0.4s linear;
+						transition: all 0.4s ease-in-out;
 					}
 				}
 
@@ -166,7 +166,7 @@
 					.app_info.active {
 						height: auto;
 						margin-bottom: 30px;
-						transition: all 0.4s linear;
+						transition: all 0.4s ease-in-out;
 					}
 				}
 
@@ -175,7 +175,7 @@
 					.app_info.active {
 						height: auto;
 						margin-bottom: 25px;
-						transition: all 0.4s linear;
+						transition: all 0.4s ease-in-out;
 					}
 				}
 			}
