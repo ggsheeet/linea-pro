@@ -310,6 +310,10 @@
 
 	@media (max-width: 768px) {
 		.modal_text {
+			:nth-child(3n):not(:last-child) {
+				padding-bottom: 5px;
+			}
+
 			a {
 				font-size: 13px;
 				text-decoration-thickness: 1px;
