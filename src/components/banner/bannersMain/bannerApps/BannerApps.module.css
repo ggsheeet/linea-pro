@@ -43,6 +43,7 @@
 						font-weight: 400;
 						font-size: 22px;
 						color: #444;
+						transition: all 0.4s ease-in-out;
 					}
 
 					.app_arrow {
@@ -96,21 +97,8 @@
 				.app_name.active {
 					h3 {
 						font-weight: 500;
-						font-size: 23px;
 						color: #333;
 						transition: all 0.4s ease-in-out;
-					}
-
-					@media (max-width: 1280px) {
-						h3 {
-							font-size: 21px;
-						}
-					}
-					
-					@media (max-width: 1024px) {
-						h3 {
-							font-size: 19px;
-						}
 					}
 				}
 
@@ -125,6 +113,7 @@
 						font-size: 19px;
 						color: #555;
 						opacity: 0;
+						transition: all 0.4s ease-in-out;
 					}
 
 					@media (max-width: 1280px) {
@@ -147,7 +136,6 @@
 
 					p {
 						opacity: 1;
-
 						transition: all 0.4s ease-in-out;
 					}
 				}
@@ -157,7 +145,6 @@
 					.app_info.active {
 						height: auto;
 						margin-bottom: 35px;
-						transition: all 0.4s ease-in-out;
 					}
 				}
 
@@ -166,7 +153,6 @@
 					.app_info.active {
 						height: auto;
 						margin-bottom: 30px;
-						transition: all 0.4s ease-in-out;
 					}
 				}
 
@@ -175,7 +161,6 @@
 					.app_info.active {
 						height: auto;
 						margin-bottom: 25px;
-						transition: all 0.4s ease-in-out;
 					}
 				}
 			}
